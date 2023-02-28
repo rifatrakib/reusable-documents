@@ -1,0 +1,22 @@
+[
+    {
+        "user": {
+            "username": "abc12345",
+            "email": "abc12345@demo.com",
+            "password": "abCD@1234"
+        },
+        "first_name": "abcdefgh",
+        "middle_name": "mnopqrs",
+        "last_name": "xyzasrdf"
+    },
+    {
+        "user": {
+            "username": "abc23456",
+            "email": "abc23456@demo.com",
+            "password": "abCD@1234"
+        },
+        "first_name": "bcde xyt",
+        "last_name": "prqsxdt",
+        "birthday": "1999-10-10T00:00:00"
+    }
+]
