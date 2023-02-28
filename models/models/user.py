@@ -75,7 +75,7 @@ class ProfileModel(BaseModel):
         if not v:
             return v
 
-        adult_lower_limit = datetime.utcnow() - timedelta(year=18)
+        adult_lower_limit = datetime.utcnow() - timedelta(days=365 * 18)
         if v > adult_lower_limit:
             raise ValueError("Not old enough")
         return v
