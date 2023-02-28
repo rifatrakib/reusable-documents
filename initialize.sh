@@ -10,10 +10,14 @@ cd ..
 cd data
 source venv/scripts/activate
 # the version number must be updated when there is a newer version
-pip install --upgrade dist/pydantic_mongo_reusables-0.1.1-py3-none-any.whl
+pip install --upgrade dist/pydantic_mongo_reusables-0.1.2-py3-none-any.whl
+
+python main.py
 
 cd ..
 cd backend
 source venv/scripts/activate
 # the version number must be updated when there is a newer version
-pip install --upgrade dist/pydantic_mongo_reusables-0.1.1-py3-none-any.whl
+pip install --upgrade dist/pydantic_mongo_reusables-0.1.2-py3-none-any.whl
+
+docker compose up
