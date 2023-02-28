@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "etl"
+version = "0.1.0"
+description = "A collection of ETL tasks and methods to get data into the right shape and put them in MongoDB collections"
+authors = ["rifatrakib <Rakib.1508@outlook.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.2.1"
+coverage = "^7.2.1"
+python-decouple = "^3.7"
+pydash = "^6.0.2"
+pandas = "^1.5.3"
+beanie = "^1.17.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.252"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pre-commit = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
