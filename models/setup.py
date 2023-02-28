@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="pydantic-mongo-reusables",
-    version="0.1",
+    version="0.1.1",
     description=(
         "A collection of Pydantic models that can be reused and extended by anything that are built on top of pydantic."
     ),

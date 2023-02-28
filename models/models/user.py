@@ -40,7 +40,7 @@ class ProfileModel(BaseModel):
     first_name: str = Field(
         title="first name",
         decription="First name of the profile owner.",
-        regex=r"^[\w\s]{6,32}$",
+        regex=r"^[\w\s]{2,32}$",
         min_length=4,
         max_length=64,
     )
@@ -48,14 +48,14 @@ class ProfileModel(BaseModel):
         default=None,
         title="middle name",
         decription="Middle name of the profile owner.",
-        regex=r"^[\w\s]{6,32}$",
+        regex=r"^[\w\s]{1,32}$",
         min_length=4,
         max_length=128,
     )
     last_name: str = Field(
         title="last name",
         decription="Last name of the profile owner.",
-        regex=r"^[\w\s]{6,32}$",
+        regex=r"^[\w\s]{2,32}$",
         min_length=4,
         max_length=64,
     )
